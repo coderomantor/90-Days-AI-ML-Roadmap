@@ -12,12 +12,14 @@ This week is focused on strengthening Python and data handling foundations befor
 - How Pandas DataFrames represent tabular data with rows and columns.
 - How to detect and fill missing values in a small dataset.
 - How to filter, sort, count, and group data for simple analysis.
+- How Matplotlib charts make tabular data easier to understand.
 
 ## What I Built
 
 - Day 01 Student Marks Analyzer using NumPy.
 - Day 02 Student Performance DataFrame using NumPy and Pandas.
 - Day 03 Employee Data Analyzer using Pandas data cleaning.
+- Day 04 Employee Salary Dashboard using Pandas and Matplotlib.
 
 ## What Was Difficult
 
@@ -30,10 +32,11 @@ This week is focused on strengthening Python and data handling foundations befor
 - Add screenshots of project output.
 - Keep each daily README clear and short.
 - Continue making each project small, readable, and portfolio-ready.
+- Save chart images so GitHub visitors can quickly see project output.
 
 ## Notes For Next Week
 
 - Continue with NumPy practice.
 - Start Pandas basics.
 - Build one small data analysis project before moving into machine learning models.
-- Use visualization in Day 04 to make cleaned data easier to understand.
+- Use Seaborn in Day 05 to create cleaner statistical visualizations.

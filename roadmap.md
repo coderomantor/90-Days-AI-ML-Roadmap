@@ -68,7 +68,7 @@ Deliverable:
 
 ---
 
-### Day 04
+### Day 04 ✅
 
 Topics:
 
@@ -82,8 +82,9 @@ Project:
 Deliverable:
 
 * Bar charts
-* Line charts
 * Histograms
+* Pie charts
+* Saved PNG chart outputs
 
 ---
 

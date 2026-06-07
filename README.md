@@ -35,7 +35,7 @@ For the full plan, see [roadmap.md](roadmap.md).
 | Day 01 | Python refresher, NumPy basics, arrays, vectorization | Student Marks Analyzer | Completed |
 | Day 02 | 2D NumPy arrays, Pandas introduction, DataFrames, basic data exploration | Student Performance Analyzer | Completed |
 | Day 03 | Missing values, data cleaning, data types, filtering, duplicates, value counts, GroupBy, sorting | Employee Data Analyzer | Completed |
-| Day 04 | Data visualization and Matplotlib basics | Employee Salary Dashboard | Upcoming |
+| Day 04 | Data visualization, Matplotlib basics, bar charts, histograms, pie charts | Employee Salary Dashboard | Completed |
 | Day 05 | Seaborn basics and correlation visualization | Student Insights Dashboard | Upcoming |
 | Day 06 | Exploratory Data Analysis (EDA) | Analyze a Kaggle Dataset | Upcoming |
 | Day 07 | Revision and interview questions | Weekly Review | Upcoming |
@@ -44,22 +44,19 @@ For the full plan, see [roadmap.md](roadmap.md).
 
 I am currently working through **Phase 1: Foundations**.
 
-Completed through: **Day 03 - Pandas Data Cleaning and Filtering**
+Completed through: **Day 04 - Data Visualization with Matplotlib**
 
-Latest project: **Employee Data Analyzer**
+Latest project: **Employee Salary Dashboard**
 
-Day 03 deliverables:
+Day 04 deliverables:
 
-- Detect missing values
-- Fill missing values
-- Check data types
-- Filter employees by salary
-- Detect duplicate records
-- Count department values
-- Group salaries by department
-- Sort employees by salary
+- Create an employee dataset using Pandas
+- Visualize average salary by department
+- Visualize salary distribution
+- Visualize employee distribution by department
+- Save Matplotlib charts as PNG files
 
-Next day: **Day 04 - Data Visualization and Matplotlib Basics**
+Next day: **Day 05 - Seaborn Basics and Correlation Visualization**
 
 ## Repository Structure
 
@@ -88,6 +85,13 @@ Next day: **Day 04 - Data Visualization and Matplotlib Basics**
 │   ├── resources.md
 │   ├── project/
 │   │   ├── employee_data_analyzer.py
+│   │   └── requirements.txt
+│   └── screenshots/
+├── Day-04/
+│   ├── README.md
+│   ├── resources.md
+│   ├── project/
+│   │   ├── employee_salary_dashboard.py
 │   │   └── requirements.txt
 │   └── screenshots/
 └── Weekly-Reviews/
@@ -123,11 +127,13 @@ Used Pandas to detect missing values, fill missing numeric data, inspect data ty
 
 Project folder: [Day-03/project](Day-03/project)
 
-## Upcoming Projects
-
 ### Day 04: Employee Salary Dashboard
 
-Use Matplotlib to create beginner-friendly charts such as bar charts, line charts, and histograms.
+Used Pandas and Matplotlib to create an employee salary dashboard with a bar chart, histogram, and pie chart saved as PNG files for GitHub documentation.
+
+Project folder: [Day-04/project](Day-04/project)
+
+## Upcoming Projects
 
 ### Day 05: Student Insights Dashboard
 

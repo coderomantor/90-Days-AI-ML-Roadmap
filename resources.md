@@ -18,6 +18,12 @@ General resources for the full 90-day AI/ML Engineer roadmap.
 - [Kaggle Learn: Pandas](https://www.kaggle.com/learn/pandas)
 - [Kaggle Learn: Data Cleaning](https://www.kaggle.com/learn/data-cleaning)
 
+## Data Visualization
+
+- [Matplotlib Documentation](https://matplotlib.org/stable/)
+- [Matplotlib Quick Start Guide](https://matplotlib.org/stable/users/explain/quick_start.html)
+- [Kaggle Learn: Data Visualization](https://www.kaggle.com/learn/data-visualization)
+
 ## Machine Learning
 
 - [scikit-learn Documentation](https://scikit-learn.org/stable/)
