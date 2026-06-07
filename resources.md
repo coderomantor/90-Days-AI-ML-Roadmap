@@ -22,6 +22,9 @@ General resources for the full 90-day AI/ML Engineer roadmap.
 
 - [Matplotlib Documentation](https://matplotlib.org/stable/)
 - [Matplotlib Quick Start Guide](https://matplotlib.org/stable/users/explain/quick_start.html)
+- [Seaborn Documentation](https://seaborn.pydata.org/)
+- [Seaborn Tutorial](https://seaborn.pydata.org/tutorial.html)
+- [Seaborn Heatmap Documentation](https://seaborn.pydata.org/generated/seaborn.heatmap.html)
 - [Kaggle Learn: Data Visualization](https://www.kaggle.com/learn/data-visualization)
 
 ## Machine Learning

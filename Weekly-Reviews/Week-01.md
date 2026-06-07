@@ -13,6 +13,7 @@ This week is focused on strengthening Python and data handling foundations befor
 - How to detect and fill missing values in a small dataset.
 - How to filter, sort, count, and group data for simple analysis.
 - How Matplotlib charts make tabular data easier to understand.
+- How Seaborn creates cleaner statistical charts and correlation heatmaps.
 
 ## What I Built
 
@@ -20,6 +21,7 @@ This week is focused on strengthening Python and data handling foundations befor
 - Day 02 Student Performance DataFrame using NumPy and Pandas.
 - Day 03 Employee Data Analyzer using Pandas data cleaning.
 - Day 04 Employee Salary Dashboard using Pandas and Matplotlib.
+- Day 05 Employee Insights Dashboard using Pandas, Matplotlib, and Seaborn.
 
 ## What Was Difficult
 
@@ -33,10 +35,11 @@ This week is focused on strengthening Python and data handling foundations befor
 - Keep each daily README clear and short.
 - Continue making each project small, readable, and portfolio-ready.
 - Save chart images so GitHub visitors can quickly see project output.
+- Practice writing short insights from charts, not only generating visuals.
 
 ## Notes For Next Week
 
 - Continue with NumPy practice.
 - Start Pandas basics.
 - Build one small data analysis project before moving into machine learning models.
-- Use Seaborn in Day 05 to create cleaner statistical visualizations.
+- Use Day 06 to combine summaries, charts, and written observations into a simple EDA report.

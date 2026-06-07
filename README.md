@@ -36,7 +36,7 @@ For the full plan, see [roadmap.md](roadmap.md).
 | Day 02 | 2D NumPy arrays, Pandas introduction, DataFrames, basic data exploration | Student Performance Analyzer | Completed |
 | Day 03 | Missing values, data cleaning, data types, filtering, duplicates, value counts, GroupBy, sorting | Employee Data Analyzer | Completed |
 | Day 04 | Data visualization, Matplotlib basics, bar charts, histograms, pie charts | Employee Salary Dashboard | Completed |
-| Day 05 | Seaborn basics and correlation visualization | Student Insights Dashboard | Upcoming |
+| Day 05 | Seaborn fundamentals, statistical visualizations, correlation heatmaps | Employee Insights Dashboard | Completed |
 | Day 06 | Exploratory Data Analysis (EDA) | Analyze a Kaggle Dataset | Upcoming |
 | Day 07 | Revision and interview questions | Weekly Review | Upcoming |
 
@@ -44,19 +44,21 @@ For the full plan, see [roadmap.md](roadmap.md).
 
 I am currently working through **Phase 1: Foundations**.
 
-Completed through: **Day 04 - Data Visualization with Matplotlib**
+Completed through: **Day 05 - Seaborn Fundamentals for Data Visualization**
 
-Latest project: **Employee Salary Dashboard**
+Latest project: **Employee Insights Dashboard**
 
-Day 04 deliverables:
+Day 05 deliverables:
 
 - Create an employee dataset using Pandas
-- Visualize average salary by department
+- Visualize average salary by department with Seaborn
 - Visualize salary distribution
-- Visualize employee distribution by department
-- Save Matplotlib charts as PNG files
+- Visualize salary spread with a boxplot
+- Visualize experience vs salary with a scatterplot
+- Create a numeric correlation heatmap
+- Save Seaborn chart images as PNG files
 
-Next day: **Day 05 - Seaborn Basics and Correlation Visualization**
+Next day: **Day 06 - Exploratory Data Analysis (EDA)**
 
 ## Repository Structure
 
@@ -92,6 +94,13 @@ Next day: **Day 05 - Seaborn Basics and Correlation Visualization**
 │   ├── resources.md
 │   ├── project/
 │   │   ├── employee_salary_dashboard.py
+│   │   └── requirements.txt
+│   └── screenshots/
+├── Day-05/
+│   ├── README.md
+│   ├── resources.md
+│   ├── project/
+│   │   ├── employee_insights_dashboard.py
 │   │   └── requirements.txt
 │   └── screenshots/
 └── Weekly-Reviews/
@@ -133,11 +142,17 @@ Used Pandas and Matplotlib to create an employee salary dashboard with a bar cha
 
 Project folder: [Day-04/project](Day-04/project)
 
+### Day 05: Employee Insights Dashboard
+
+Used Pandas, Matplotlib, and Seaborn to create an employee insights dashboard with a barplot, histogram, boxplot, scatterplot, and correlation heatmap saved as PNG files.
+
+Project folder: [Day-05/project](Day-05/project)
+
 ## Upcoming Projects
 
-### Day 05: Student Insights Dashboard
+### Day 06: Exploratory Data Analysis
 
-Use Seaborn to explore correlations, heatmaps, and distribution plots.
+Analyze a dataset using summaries, visualizations, and written insights.
 
 ## Why I Am Sharing This
 

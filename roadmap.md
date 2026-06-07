@@ -88,7 +88,7 @@ Deliverable:
 
 ---
 
-### Day 05
+### Day 05 ✅
 
 Topics:
 
@@ -97,12 +97,16 @@ Topics:
 
 Project:
 
-* Student Insights Dashboard
+* Employee Insights Dashboard
 
 Deliverable:
 
+* Barplots
 * Heatmaps
 * Distribution plots
+* Boxplots
+* Scatterplots
+* Saved PNG chart outputs
 
 ---
 
