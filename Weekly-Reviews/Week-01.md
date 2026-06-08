@@ -14,6 +14,7 @@ This week is focused on strengthening Python and data handling foundations befor
 - How to filter, sort, count, and group data for simple analysis.
 - How Matplotlib charts make tabular data easier to understand.
 - How Seaborn creates cleaner statistical charts and correlation heatmaps.
+- How EDA combines summaries, data quality checks, charts, and written insights.
 
 ## What I Built
 
@@ -22,6 +23,7 @@ This week is focused on strengthening Python and data handling foundations befor
 - Day 03 Employee Data Analyzer using Pandas data cleaning.
 - Day 04 Employee Salary Dashboard using Pandas and Matplotlib.
 - Day 05 Employee Insights Dashboard using Pandas, Matplotlib, and Seaborn.
+- Day 06 Employee Data Analysis Report using Pandas, Matplotlib, and Seaborn.
 
 ## What Was Difficult
 
@@ -36,10 +38,11 @@ This week is focused on strengthening Python and data handling foundations befor
 - Continue making each project small, readable, and portfolio-ready.
 - Save chart images so GitHub visitors can quickly see project output.
 - Practice writing short insights from charts, not only generating visuals.
+- Connect charts to written conclusions so projects feel like analysis reports.
 
 ## Notes For Next Week
 
 - Continue with NumPy practice.
 - Start Pandas basics.
 - Build one small data analysis project before moving into machine learning models.
-- Use Day 06 to combine summaries, charts, and written observations into a simple EDA report.
+- Use Day 07 to review Week 1 concepts and practice interview questions.

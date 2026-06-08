@@ -37,28 +37,27 @@ For the full plan, see [roadmap.md](roadmap.md).
 | Day 03 | Missing values, data cleaning, data types, filtering, duplicates, value counts, GroupBy, sorting | Employee Data Analyzer | Completed |
 | Day 04 | Data visualization, Matplotlib basics, bar charts, histograms, pie charts | Employee Salary Dashboard | Completed |
 | Day 05 | Seaborn fundamentals, statistical visualizations, correlation heatmaps | Employee Insights Dashboard | Completed |
-| Day 06 | Exploratory Data Analysis (EDA) | Analyze a Kaggle Dataset | Upcoming |
+| Day 06 | Exploratory Data Analysis, dataset overview, quality checks, EDA visualizations | Employee Data Analysis Report | Completed |
 | Day 07 | Revision and interview questions | Weekly Review | Upcoming |
 
 ## Current Focus
 
 I am currently working through **Phase 1: Foundations**.
 
-Completed through: **Day 05 - Seaborn Fundamentals for Data Visualization**
+Completed through: **Day 06 - Exploratory Data Analysis (EDA)**
 
-Latest project: **Employee Insights Dashboard**
+Latest project: **Employee Data Analysis Report**
 
-Day 05 deliverables:
+Day 06 deliverables:
 
 - Create an employee dataset using Pandas
-- Visualize average salary by department with Seaborn
-- Visualize salary distribution
-- Visualize salary spread with a boxplot
-- Visualize experience vs salary with a scatterplot
-- Create a numeric correlation heatmap
-- Save Seaborn chart images as PNG files
+- Perform dataset overview using `head()`, `info()`, `shape`, and `describe()`
+- Check missing values and duplicate rows
+- Create salary distribution, outlier, relationship, correlation, and department charts
+- Save EDA chart images as PNG files
+- Print final insights and conclusions
 
-Next day: **Day 06 - Exploratory Data Analysis (EDA)**
+Next day: **Day 07 - Revision and Interview Questions**
 
 ## Repository Structure
 
@@ -101,6 +100,13 @@ Next day: **Day 06 - Exploratory Data Analysis (EDA)**
 │   ├── resources.md
 │   ├── project/
 │   │   ├── employee_insights_dashboard.py
+│   │   └── requirements.txt
+│   └── screenshots/
+├── Day-06/
+│   ├── README.md
+│   ├── resources.md
+│   ├── project/
+│   │   ├── employee_eda_report.py
 │   │   └── requirements.txt
 │   └── screenshots/
 └── Weekly-Reviews/
@@ -148,11 +154,17 @@ Used Pandas, Matplotlib, and Seaborn to create an employee insights dashboard wi
 
 Project folder: [Day-05/project](Day-05/project)
 
+### Day 06: Employee Data Analysis Report
+
+Used Pandas, Matplotlib, and Seaborn to perform a complete beginner-friendly EDA workflow with dataset overview, data quality checks, visualizations, and final insights.
+
+Project folder: [Day-06/project](Day-06/project)
+
 ## Upcoming Projects
 
-### Day 06: Exploratory Data Analysis
+### Day 07: Weekly Review
 
-Analyze a dataset using summaries, visualizations, and written insights.
+Review Week 1 concepts, practice interview questions, and write a clear learning summary.
 
 ## Why I Am Sharing This
 

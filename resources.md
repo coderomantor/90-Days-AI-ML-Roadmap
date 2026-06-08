@@ -27,6 +27,13 @@ General resources for the full 90-day AI/ML Engineer roadmap.
 - [Seaborn Heatmap Documentation](https://seaborn.pydata.org/generated/seaborn.heatmap.html)
 - [Kaggle Learn: Data Visualization](https://www.kaggle.com/learn/data-visualization)
 
+## Exploratory Data Analysis
+
+- [Pandas Getting Started](https://pandas.pydata.org/docs/getting_started/index.html)
+- [Pandas describe Documentation](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.describe.html)
+- [Seaborn countplot Documentation](https://seaborn.pydata.org/generated/seaborn.countplot.html)
+- [Kaggle Learn: Intro to Machine Learning](https://www.kaggle.com/learn/intro-to-machine-learning)
+
 ## Machine Learning
 
 - [scikit-learn Documentation](https://scikit-learn.org/stable/)

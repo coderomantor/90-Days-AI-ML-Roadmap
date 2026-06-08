@@ -110,7 +110,7 @@ Deliverable:
 
 ---
 
-### Day 06
+### Day 06 ✅
 
 Topics:
 
@@ -118,11 +118,15 @@ Topics:
 
 Project:
 
-* Analyze a Kaggle Dataset
+* Employee Data Analysis Report
 
 Deliverable:
 
 * EDA Report
+* Dataset overview
+* Missing value and duplicate checks
+* EDA visualizations
+* Final insights and conclusions
 
 ---
 
