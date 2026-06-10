@@ -38,26 +38,25 @@ For the full plan, see [roadmap.md](roadmap.md).
 | Day 04 | Data visualization, Matplotlib basics, bar charts, histograms, pie charts | Employee Salary Dashboard | Completed |
 | Day 05 | Seaborn fundamentals, statistical visualizations, correlation heatmaps | Employee Insights Dashboard | Completed |
 | Day 06 | Exploratory Data Analysis, dataset overview, quality checks, EDA visualizations | Employee Data Analysis Report | Completed |
-| Day 07 | Revision and interview questions | Weekly Review | Upcoming |
+| Day 07 | Revision, interview questions, Week 1 review | Weekly Review Checklist | Completed |
 
 ## Current Focus
 
 I am currently working through **Phase 1: Foundations**.
 
-Completed through: **Day 06 - Exploratory Data Analysis (EDA)**
+Completed through: **Day 07 - Week 1 Review and Interview Questions**
 
-Latest project: **Employee Data Analysis Report**
+Latest project: **Week 1 Review Checklist**
 
-Day 06 deliverables:
+Day 07 deliverables:
 
-- Create an employee dataset using Pandas
-- Perform dataset overview using `head()`, `info()`, `shape`, and `describe()`
-- Check missing values and duplicate rows
-- Create salary distribution, outlier, relationship, correlation, and department charts
-- Save EDA chart images as PNG files
-- Print final insights and conclusions
+- Review Day 01 to Day 06 concepts
+- Summarize completed Week 1 projects
+- Practice beginner AI/ML interview questions
+- Identify weak areas before moving forward
+- Prepare for feature engineering basics
 
-Next day: **Day 07 - Revision and Interview Questions**
+Next day: **Day 08 - Feature Engineering Basics and Encoding**
 
 ## Repository Structure
 
@@ -107,6 +106,13 @@ Next day: **Day 07 - Revision and Interview Questions**
 │   ├── resources.md
 │   ├── project/
 │   │   ├── employee_eda_report.py
+│   │   └── requirements.txt
+│   └── screenshots/
+├── Day-07/
+│   ├── README.md
+│   ├── resources.md
+│   ├── project/
+│   │   ├── week_1_review_checklist.py
 │   │   └── requirements.txt
 │   └── screenshots/
 └── Weekly-Reviews/
@@ -160,11 +166,17 @@ Used Pandas, Matplotlib, and Seaborn to perform a complete beginner-friendly EDA
 
 Project folder: [Day-06/project](Day-06/project)
 
+### Day 07: Week 1 Review Checklist
+
+Reviewed the first week of learning, summarized completed projects, listed skills practiced, and prepared beginner-friendly interview questions before moving into feature engineering.
+
+Project folder: [Day-07/project](Day-07/project)
+
 ## Upcoming Projects
 
-### Day 07: Weekly Review
+### Day 08: Dataset Preparation
 
-Review Week 1 concepts, practice interview questions, and write a clear learning summary.
+Learn feature engineering basics and encoding for preparing datasets before machine learning.
 
 ## Why I Am Sharing This
 

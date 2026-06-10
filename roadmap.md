@@ -130,7 +130,7 @@ Deliverable:
 
 ---
 
-### Day 07
+### Day 07 ✅
 
 Topics:
 
@@ -144,6 +144,8 @@ Project:
 Deliverable:
 
 * Week 1 Summary
+* Revision checklist
+* Interview questions
 
 ---
 

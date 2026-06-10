@@ -24,11 +24,14 @@ This week is focused on strengthening Python and data handling foundations befor
 - Day 04 Employee Salary Dashboard using Pandas and Matplotlib.
 - Day 05 Employee Insights Dashboard using Pandas, Matplotlib, and Seaborn.
 - Day 06 Employee Data Analysis Report using Pandas, Matplotlib, and Seaborn.
+- Day 07 Week 1 Review Checklist for revision and interview practice.
 
 ## What Was Difficult
 
 - Thinking in rows and columns instead of only simple Python lists.
 - Understanding when to use `axis=0` and `axis=1` in NumPy.
+- Choosing the right chart type for each data question.
+- Writing clear insights instead of only generating outputs.
 
 ## What I Should Improve
 
@@ -42,7 +45,7 @@ This week is focused on strengthening Python and data handling foundations befor
 
 ## Notes For Next Week
 
-- Continue with NumPy practice.
-- Start Pandas basics.
-- Build one small data analysis project before moving into machine learning models.
-- Use Day 07 to review Week 1 concepts and practice interview questions.
+- Start Day 08 with feature engineering basics and encoding.
+- Practice converting categorical data into model-ready numeric features.
+- Keep connecting each project to real AI/ML workflows.
+- Continue writing clear README files and saving useful outputs.
