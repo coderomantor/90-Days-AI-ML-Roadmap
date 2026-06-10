@@ -39,24 +39,25 @@ For the full plan, see [roadmap.md](roadmap.md).
 | Day 05 | Seaborn fundamentals, statistical visualizations, correlation heatmaps | Employee Insights Dashboard | Completed |
 | Day 06 | Exploratory Data Analysis, dataset overview, quality checks, EDA visualizations | Employee Data Analysis Report | Completed |
 | Day 07 | Revision, interview questions, Week 1 review | Weekly Review Checklist | Completed |
+| Day 08 | Feature engineering basics, encoding, dataset preparation | Dataset Preparation | Completed |
 
 ## Current Focus
 
 I am currently working through **Phase 1: Foundations**.
 
-Completed through: **Day 07 - Week 1 Review and Interview Questions**
+Completed through: **Day 08 - Feature Engineering Basics and Encoding**
 
-Latest project: **Week 1 Review Checklist**
+Latest project: **Dataset Preparation**
 
-Day 07 deliverables:
+Day 08 deliverables:
 
-- Review Day 01 to Day 06 concepts
-- Summarize completed Week 1 projects
-- Practice beginner AI/ML interview questions
-- Identify weak areas before moving forward
-- Prepare for feature engineering basics
+- Create an employee dataset for preprocessing practice
+- Add engineered features from salary, age, and experience
+- Encode categorical columns for machine learning
+- Save the prepared dataset as a CSV file
+- Connect data preparation to the ML workflow
 
-Next day: **Day 08 - Feature Engineering Basics and Encoding**
+Next day: **Day 09 - Feature Scaling, Normalization, and Standardization**
 
 ## Repository Structure
 
@@ -115,8 +116,16 @@ Next day: **Day 08 - Feature Engineering Basics and Encoding**
 │   │   ├── week_1_review_checklist.py
 │   │   └── requirements.txt
 │   └── screenshots/
+├── Day-08/
+│   ├── README.md
+│   ├── resources.md
+│   ├── project/
+│   │   ├── dataset_preparation.py
+│   │   └── requirements.txt
+│   └── screenshots/
 └── Weekly-Reviews/
-    └── Week-01.md
+    ├── Week-01.md
+    └── Week-02.md
 ```
 
 ## Daily Folder Format
@@ -172,11 +181,17 @@ Reviewed the first week of learning, summarized completed projects, listed skill
 
 Project folder: [Day-07/project](Day-07/project)
 
-## Upcoming Projects
-
 ### Day 08: Dataset Preparation
 
-Learn feature engineering basics and encoding for preparing datasets before machine learning.
+Used Pandas to create engineered features, encode categorical columns, and prepare a machine learning ready employee dataset.
+
+Project folder: [Day-08/project](Day-08/project)
+
+## Upcoming Projects
+
+### Day 09: Data Preprocessing Pipeline
+
+Learn feature scaling, normalization, and standardization for preparing numeric features before machine learning.
 
 ## Why I Am Sharing This
 

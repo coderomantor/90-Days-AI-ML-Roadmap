@@ -1,0 +1,9 @@
+Age,Salary,Experience,PerformanceScore,PromotionEligible,SalaryPerExperience,IsSenior,EducationEncoded,Department_Finance,Department_HR,Department_IT,Department_Marketing,City_Islamabad,City_Karachi,City_Lahore,ExperienceLevel_Junior,ExperienceLevel_Mid,ExperienceLevel_Senior,AgeGroup_Early_Career,AgeGroup_Growing,AgeGroup_Experienced
+24,50000,2,78,0,25000.0,0,1,0,0,1,0,0,0,1,1,0,0,1,0,0
+28,62000,4,86,1,15500.0,0,2,0,1,0,0,0,1,0,0,1,0,0,1,0
+29,57000,5,82,0,11400.0,1,1,1,0,0,0,1,0,0,0,1,0,0,1,0
+31,58000,6,88,1,9666.67,1,2,0,0,1,0,0,0,1,0,0,1,0,0,1
+27,54000,3,80,0,18000.0,0,1,0,0,0,1,0,1,0,1,0,0,0,1,0
+34,65000,7,91,1,9285.71,1,3,1,0,0,0,1,0,0,0,0,1,0,0,1
+30,60000,4,85,1,15000.0,0,2,0,0,1,0,0,0,1,0,1,0,0,1,0
+26,59000,3,83,0,19666.67,0,1,0,1,0,0,0,1,0,1,0,0,0,1,0

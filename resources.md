@@ -34,6 +34,13 @@ General resources for the full 90-day AI/ML Engineer roadmap.
 - [Seaborn countplot Documentation](https://seaborn.pydata.org/generated/seaborn.countplot.html)
 - [Kaggle Learn: Intro to Machine Learning](https://www.kaggle.com/learn/intro-to-machine-learning)
 
+## Feature Engineering and Preprocessing
+
+- [Kaggle Learn: Feature Engineering](https://www.kaggle.com/learn/feature-engineering)
+- [Pandas get_dummies Documentation](https://pandas.pydata.org/docs/reference/api/pandas.get_dummies.html)
+- [Pandas cut Documentation](https://pandas.pydata.org/docs/reference/api/pandas.cut.html)
+- [scikit-learn Preprocessing](https://scikit-learn.org/stable/modules/preprocessing.html)
+
 ## Machine Learning
 
 - [scikit-learn Documentation](https://scikit-learn.org/stable/)

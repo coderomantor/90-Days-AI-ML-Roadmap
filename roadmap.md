@@ -149,7 +149,7 @@ Deliverable:
 
 ---
 
-### Day 08
+### Day 08 ✅
 
 Topics:
 
@@ -159,6 +159,12 @@ Topics:
 Project:
 
 * Dataset Preparation
+
+Deliverable:
+
+* Create engineered features
+* Encode categorical columns
+* Save prepared dataset
 
 ---
 
