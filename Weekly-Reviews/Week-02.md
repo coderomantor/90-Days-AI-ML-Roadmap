@@ -20,7 +20,7 @@ This week focuses on preparing data for machine learning and starting the transi
 | --- | --- | --- | --- |
 | Day 08 | Feature engineering basics and encoding | Dataset Preparation | Completed |
 | Day 09 | Feature scaling, normalization, standardization | Data Preprocessing Pipeline | Completed |
-| Day 10 | Train/test split | Dataset Splitting Tool | Not Started |
+| Day 10 | Train/test split | Dataset Splitting Tool | Completed |
 | Day 11 | Introduction to Machine Learning | ML Workflow Notes | Completed |
 | Day 12 | Linear Regression Theory | House Price Prediction Part 1 | Not Started |
 | Day 13 | Linear Regression Implementation | House Price Prediction Part 2 | Not Started |
@@ -36,6 +36,9 @@ This week focuses on preparing data for machine learning and starting the transi
 - How to normalize numeric values to a 0 to 1 range.
 - How to standardize numeric values using mean and standard deviation.
 - Why scaling helps models compare features with different units.
+- How to split data into training and testing sets.
+- Why testing data should stay unseen during training.
+- Why shuffling helps avoid biased dataset splits.
 - What features and target columns mean in machine learning.
 - The main steps in a beginner machine learning workflow.
 - The difference between regression and classification.
@@ -48,7 +51,8 @@ This week focuses on preparing data for machine learning and starting the transi
 - Review the prepared dataset before moving to scaling.
 - Practice scaling more numeric columns.
 - Explain the difference between normalization and standardization.
-- Complete the pending Day 10 train/test split project.
+- Practice different train/test split ratios.
+- Explain data leakage in simple language.
 - Practice explaining the ML workflow in interview-style language.
 
 ## Notes For The Rest Of Week 2

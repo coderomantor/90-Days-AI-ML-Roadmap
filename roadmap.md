@@ -188,7 +188,7 @@ Deliverable:
 
 ---
 
-### Day 10
+### Day 10 ✅
 
 Topics:
 
@@ -197,6 +197,12 @@ Topics:
 Project:
 
 * Dataset Splitting Tool
+
+Deliverable:
+
+* Split data into train and test sets
+* Explain features and target
+* Save train and test datasets
 
 ---
 

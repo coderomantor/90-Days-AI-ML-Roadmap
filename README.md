@@ -47,14 +47,14 @@ Selected days may include a concept guide with structured notes, project connect
 | Day 07 | Revision, interview questions, Week 1 review | Weekly Review Checklist | Completed |
 | Day 08 | Feature engineering basics, encoding, dataset preparation | Dataset Preparation | Completed |
 | Day 09 | Feature scaling, normalization, standardization | Data Preprocessing Pipeline | Completed |
-| Day 10 | Train/test split | Dataset Splitting Tool | Not Started |
+| Day 10 | Train/test split, features, target, data leakage basics | Dataset Splitting Tool | Completed |
 | Day 11 | Introduction to Machine Learning, features, target, workflow basics | ML Workflow Notes | Completed |
 
 ## Current Focus
 
 I am currently working through **Phase 1: Foundations**.
 
-Latest prepared day: **Day 11 - Introduction to Machine Learning**
+Completed through: **Day 11 - Introduction to Machine Learning**
 
 Latest project: **ML Workflow Notes**
 
@@ -65,8 +65,6 @@ Day 11 deliverables:
 - Compare regression, classification, and clustering
 - Connect data preparation to model training
 - Practice interview-style ML basics
-
-Pending gap: **Day 10 - Train/Test Split** still needs its own folder and project.
 
 Next roadmap topic: **Day 12 - Linear Regression Theory**
 
@@ -140,6 +138,13 @@ Next roadmap topic: **Day 12 - Linear Regression Theory**
 │   ├── resources.md
 │   ├── project/
 │   │   ├── data_preprocessing_pipeline.py
+│   │   └── requirements.txt
+│   └── screenshots/
+├── Day-10/
+│   ├── README.md
+│   ├── resources.md
+│   ├── project/
+│   │   ├── dataset_splitting_tool.py
 │   │   └── requirements.txt
 │   └── screenshots/
 ├── Day-11/
@@ -219,6 +224,12 @@ Used Pandas to normalize and standardize numeric employee features, compare scal
 
 Project folder: [Day-09/project](Day-09/project)
 
+### Day 10: Dataset Splitting Tool
+
+Used Pandas to shuffle a student dataset, split it into training and testing sets, and save both datasets as CSV files.
+
+Project folder: [Day-10/project](Day-10/project)
+
 ### Day 11: ML Workflow Notes
 
 Reviewed the beginner machine learning workflow, explained features and target columns, and compared common ML task types.
@@ -227,9 +238,9 @@ Project folder: [Day-11/project](Day-11/project)
 
 ## Upcoming Projects
 
-### Day 10: Dataset Splitting Tool
+### Day 12: House Price Prediction Part 1
 
-Complete the pending train/test split project, then continue to Day 12 linear regression theory.
+Start linear regression theory before implementing a prediction project.
 
 ## Why I Am Sharing This
 
