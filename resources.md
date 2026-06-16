@@ -46,7 +46,9 @@ General resources for the full 90-day AI/ML Engineer roadmap.
 ## Machine Learning
 
 - [scikit-learn Documentation](https://scikit-learn.org/stable/)
+- [scikit-learn Machine Learning Tutorial](https://scikit-learn.org/stable/tutorial/basic/tutorial.html)
 - [Google Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course)
+- [Google Machine Learning Crash Course: ML Terminology](https://developers.google.com/machine-learning/crash-course/framing/ml-terminology)
 - [Kaggle Learn: Intro to Machine Learning](https://www.kaggle.com/learn/intro-to-machine-learning)
 
 ## AI Engineering

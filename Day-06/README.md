@@ -6,6 +6,8 @@ Learn how to explore a dataset before making decisions or building machine learn
 
 Day 05 focused on Seaborn visualizations. Day 06 combines Pandas summaries, missing value checks, duplicate checks, visualizations, and written conclusions into a simple EDA workflow.
 
+For a deeper concept explanation, see the [Day 06 EDA Guide](guide.md).
+
 ## Topics Covered
 
 - Exploratory Data Analysis (EDA)

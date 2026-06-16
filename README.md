@@ -28,6 +28,12 @@ The goal of this repository is to learn in public, build practical AI/ML project
 
 For the full plan, see [roadmap.md](roadmap.md).
 
+## Learning Guides
+
+Selected days may include a concept guide with structured notes, project connections, code examples, and interview-style questions. These guides are written as learning references for my AI/ML journey and for other learners following along.
+
+- [Day 06 — Exploratory Data Analysis (EDA) Guide](Day-06/guide.md)
+
 ## Progress
 
 | Day | Topic | Project | Status |
@@ -41,24 +47,28 @@ For the full plan, see [roadmap.md](roadmap.md).
 | Day 07 | Revision, interview questions, Week 1 review | Weekly Review Checklist | Completed |
 | Day 08 | Feature engineering basics, encoding, dataset preparation | Dataset Preparation | Completed |
 | Day 09 | Feature scaling, normalization, standardization | Data Preprocessing Pipeline | Completed |
+| Day 10 | Train/test split | Dataset Splitting Tool | Not Started |
+| Day 11 | Introduction to Machine Learning, features, target, workflow basics | ML Workflow Notes | Completed |
 
 ## Current Focus
 
 I am currently working through **Phase 1: Foundations**.
 
-Completed through: **Day 09 - Feature Scaling, Normalization, and Standardization**
+Latest prepared day: **Day 11 - Introduction to Machine Learning**
 
-Latest project: **Data Preprocessing Pipeline**
+Latest project: **ML Workflow Notes**
 
-Day 09 deliverables:
+Day 11 deliverables:
 
-- Create an employee dataset for scaling practice
-- Apply min-max normalization to numeric features
-- Apply standardization using mean and standard deviation
-- Compare original and scaled values
-- Save the preprocessed dataset as a CSV file
+- Explain features and target columns
+- Summarize the beginner machine learning workflow
+- Compare regression, classification, and clustering
+- Connect data preparation to model training
+- Practice interview-style ML basics
 
-Next day: **Day 10 - Train/Test Split**
+Pending gap: **Day 10 - Train/Test Split** still needs its own folder and project.
+
+Next roadmap topic: **Day 12 - Linear Regression Theory**
 
 ## Repository Structure
 
@@ -105,6 +115,7 @@ Next day: **Day 10 - Train/Test Split**
 │   └── screenshots/
 ├── Day-06/
 │   ├── README.md
+│   ├── guide.md
 │   ├── resources.md
 │   ├── project/
 │   │   ├── employee_eda_report.py
@@ -129,6 +140,13 @@ Next day: **Day 10 - Train/Test Split**
 │   ├── resources.md
 │   ├── project/
 │   │   ├── data_preprocessing_pipeline.py
+│   │   └── requirements.txt
+│   └── screenshots/
+├── Day-11/
+│   ├── README.md
+│   ├── resources.md
+│   ├── project/
+│   │   ├── ml_workflow_notes.py
 │   │   └── requirements.txt
 │   └── screenshots/
 └── Weekly-Reviews/
@@ -201,11 +219,17 @@ Used Pandas to normalize and standardize numeric employee features, compare scal
 
 Project folder: [Day-09/project](Day-09/project)
 
+### Day 11: ML Workflow Notes
+
+Reviewed the beginner machine learning workflow, explained features and target columns, and compared common ML task types.
+
+Project folder: [Day-11/project](Day-11/project)
+
 ## Upcoming Projects
 
 ### Day 10: Dataset Splitting Tool
 
-Learn how to split a dataset into training and testing data before machine learning.
+Complete the pending train/test split project, then continue to Day 12 linear regression theory.
 
 ## Why I Am Sharing This
 

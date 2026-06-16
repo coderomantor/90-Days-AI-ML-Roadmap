@@ -200,7 +200,7 @@ Project:
 
 ---
 
-### Day 11
+### Day 11 ✅
 
 Topics:
 
@@ -209,6 +209,12 @@ Topics:
 Project:
 
 * ML Workflow Notes
+
+Deliverable:
+
+* Explain features and target
+* Summarize the ML workflow
+* Compare regression and classification
 
 ---
 
