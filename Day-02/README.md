@@ -6,6 +6,8 @@ Understand how tabular data is represented in Python using NumPy 2D arrays and P
 
 Day 01 focused on NumPy basics. Day 02 connects those array skills to real dataset-style thinking, which is essential before machine learning model training.
 
+For structured learning notes, see the [Day 02 Guide](guide.md).
+
 ## Topics Covered
 
 - NumPy 2D arrays

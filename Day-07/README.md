@@ -6,6 +6,8 @@ Review the first six days of learning and strengthen the core ideas before movin
 
 Day 01 to Day 06 focused on NumPy, Pandas, data cleaning, data visualization, Seaborn, and Exploratory Data Analysis. Day 07 is for revision, interview practice, and writing a clear Week 1 summary.
 
+For structured learning notes, see the [Day 07 Guide](guide.md).
+
 ## Topics Covered
 
 - Week 1 revision

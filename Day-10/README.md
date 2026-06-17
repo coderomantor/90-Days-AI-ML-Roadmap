@@ -6,6 +6,8 @@ Learn how to split a dataset into training and testing sets before building a ma
 
 Day 09 focused on feature scaling. Day 10 focuses on one of the most important machine learning habits: keeping separate data for training and evaluation.
 
+For structured learning notes, see the [Day 10 Guide](guide.md).
+
 ## Topics Covered
 
 - Train/test split

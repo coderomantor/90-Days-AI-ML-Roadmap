@@ -2,6 +2,8 @@
 
 ## Phase 1: Foundations (Days 1-14)
 
+Completed day folders include `guide.md` learning notes where available, along with the daily README, resources, project code, and screenshots.
+
 ### Day 01 ✅
 
 Topics:

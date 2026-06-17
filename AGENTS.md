@@ -30,10 +30,13 @@ Daily learning folders should follow this format:
 ```text
 Day-XX/
 ├── README.md
+├── guide.md
 ├── resources.md
 ├── project/
 └── screenshots/
 ```
+
+Each `guide.md` should be learner-friendly, technically correct, and useful for both learners and recruiters. It should explain the day’s topic clearly, connect to the project, include practical examples where useful, and provide interview-style questions or a checklist for revision.
 
 Weekly reviews should be stored in:
 

@@ -1,8 +1,8 @@
 # 90 Days AI/ML Engineer Roadmap
 
-A public 90-day learning challenge to become a stronger, job-ready AI and Machine Learning Engineer.
+A public AI/ML learning roadmap, GitHub portfolio, and learner-friendly resource built through daily practice.
 
-I am documenting daily learning, beginner-friendly projects, useful resources, screenshots, and weekly reflections while building a professional GitHub portfolio.
+I am documenting my 90-day journey through Python, data analysis, machine learning foundations, AI engineering concepts, practical projects, learning guides, screenshots, resources, and weekly reflections. The goal is to show consistent progress while also creating notes that other learners can follow.
 
 ## About Me
 
@@ -14,7 +14,13 @@ I am documenting daily learning, beginner-friendly projects, useful resources, s
 
 ## Goal
 
-The goal of this repository is to learn in public, build practical AI/ML projects, and show consistent progress through clean documentation.
+The goal of this repository is to learn in public, build practical AI/ML projects, and document the journey with clean, useful, recruiter-friendly, and learner-friendly material.
+
+## Who This Repository Is For
+
+- **Recruiters:** to review my consistency, coding practice, AI/ML progress, project quality, documentation habits, and portfolio growth.
+- **AI/ML learners:** to follow clear daily guides, run beginner-friendly projects, and revise with interview-style questions.
+- **Students following a practical roadmap:** to build alongside a structured path from Python and data handling toward machine learning and AI engineering.
 
 ## Roadmap Overview
 
@@ -28,13 +34,59 @@ The goal of this repository is to learn in public, build practical AI/ML project
 
 For the full plan, see [roadmap.md](roadmap.md).
 
+## What Each Day Includes
+
+Each completed day is designed to be useful both as portfolio evidence and as a learning reference.
+
+- `README.md` for the day summary, project overview, and reflection
+- `guide.md` for structured learning notes, examples, common mistakes, and interview-style questions
+- `project/` for practical implementation
+- `resources.md` for references and practice ideas
+- `screenshots/` for output images where available
+
 ## Learning Guides
 
-Selected days may include a concept guide with structured notes, project connections, code examples, and interview-style questions. These guides are written as learning references for my AI/ML journey and for other learners following along.
+| Day | Topic | Guide | Project |
+| --- | --- | --- | --- |
+| [Day 01](Day-01) | NumPy Fundamentals | [Guide](Day-01/guide.md) | [Project](Day-01/project/student_marks_analyzer.py) |
+| [Day 02](Day-02) | 2D NumPy Arrays and Pandas Introduction | [Guide](Day-02/guide.md) | [Project](Day-02/project/student_performance_dataframe.py) |
+| [Day 03](Day-03) | Pandas Data Cleaning and Filtering | [Guide](Day-03/guide.md) | [Project](Day-03/project/employee_data_analyzer.py) |
+| [Day 04](Day-04) | Data Visualization with Matplotlib | [Guide](Day-04/guide.md) | [Project](Day-04/project/employee_salary_dashboard.py) |
+| [Day 05](Day-05) | Seaborn Fundamentals | [Guide](Day-05/guide.md) | [Project](Day-05/project/employee_insights_dashboard.py) |
+| [Day 06](Day-06) | Exploratory Data Analysis | [Guide](Day-06/guide.md) | [Project](Day-06/project/employee_eda_report.py) |
+| [Day 07](Day-07) | Week 1 Review and Interview Questions | [Guide](Day-07/guide.md) | [Project](Day-07/project/week_1_review_checklist.py) |
+| [Day 08](Day-08) | Feature Engineering and Encoding | [Guide](Day-08/guide.md) | [Project](Day-08/project/dataset_preparation.py) |
+| [Day 09](Day-09) | Feature Scaling and Standardization | [Guide](Day-09/guide.md) | [Project](Day-09/project/data_preprocessing_pipeline.py) |
+| [Day 10](Day-10) | Train/Test Split | [Guide](Day-10/guide.md) | [Project](Day-10/project/dataset_splitting_tool.py) |
+| [Day 11](Day-11) | Introduction to Machine Learning | [Guide](Day-11/guide.md) | [Project](Day-11/project/ml_workflow_notes.py) |
+| [Day 12](Day-12) | Linear Regression Theory | [Guide](Day-12/guide.md) | [Project](Day-12/project/house_price_prediction_part_1.py) |
+| [Day 13](Day-13) | Linear Regression Implementation | [Guide](Day-13/guide.md) | [Project](Day-13/project/house_price_prediction_part_2.py) |
 
-- [Day 06 — Exploratory Data Analysis (EDA) Guide](Day-06/guide.md)
-- [Day 12 — Linear Regression Theory Guide](Day-12/guide.md)
-- [Day 13 — Linear Regression Implementation Guide](Day-13/guide.md)
+## For Recruiters
+
+This repository demonstrates consistent project-based learning and growing AI/ML foundations, including:
+
+- Python practice
+- Data analysis with NumPy and Pandas
+- Data cleaning and preprocessing
+- Data visualization with Matplotlib and Seaborn
+- Exploratory Data Analysis
+- Feature engineering and encoding
+- Train/test split
+- Machine learning fundamentals
+- Linear regression theory and implementation
+- Clean documentation and public learning discipline
+
+## For Learners
+
+If you are learning along with this roadmap:
+
+1. Start from [Day 01](Day-01).
+2. Read the day’s `guide.md`.
+3. Run the project code inside `project/`.
+4. Check the day `README.md` for summary and outputs.
+5. Use the interview-style questions for revision.
+6. Build your own version of each project as practice.
 
 ## Progress
 
@@ -64,7 +116,7 @@ Latest project: **House Price Prediction Part 2**
 
 Day 13 deliverables:
 
-- Implement simple linear regression using NumPy
+- Implement linear regression using scikit-learn
 - Generate house price predictions
 - Compare actual and predicted prices
 - Calculate MAE and RMSE
@@ -82,6 +134,7 @@ Next roadmap topic: **Day 14 - Foundation Phase Review**
 ├── resources.md
 ├── Day-01/
 │   ├── README.md
+│   ├── guide.md
 │   ├── resources.md
 │   ├── project/
 │   │   ├── student_marks_analyzer.py
@@ -89,6 +142,7 @@ Next roadmap topic: **Day 14 - Foundation Phase Review**
 │   └── screenshots/
 ├── Day-02/
 │   ├── README.md
+│   ├── guide.md
 │   ├── resources.md
 │   ├── project/
 │   │   ├── student_performance_dataframe.py
@@ -96,6 +150,7 @@ Next roadmap topic: **Day 14 - Foundation Phase Review**
 │   └── screenshots/
 ├── Day-03/
 │   ├── README.md
+│   ├── guide.md
 │   ├── resources.md
 │   ├── project/
 │   │   ├── employee_data_analyzer.py
@@ -103,6 +158,7 @@ Next roadmap topic: **Day 14 - Foundation Phase Review**
 │   └── screenshots/
 ├── Day-04/
 │   ├── README.md
+│   ├── guide.md
 │   ├── resources.md
 │   ├── project/
 │   │   ├── employee_salary_dashboard.py
@@ -110,6 +166,7 @@ Next roadmap topic: **Day 14 - Foundation Phase Review**
 │   └── screenshots/
 ├── Day-05/
 │   ├── README.md
+│   ├── guide.md
 │   ├── resources.md
 │   ├── project/
 │   │   ├── employee_insights_dashboard.py
@@ -125,6 +182,7 @@ Next roadmap topic: **Day 14 - Foundation Phase Review**
 │   └── screenshots/
 ├── Day-07/
 │   ├── README.md
+│   ├── guide.md
 │   ├── resources.md
 │   ├── project/
 │   │   ├── week_1_review_checklist.py
@@ -132,6 +190,7 @@ Next roadmap topic: **Day 14 - Foundation Phase Review**
 │   └── screenshots/
 ├── Day-08/
 │   ├── README.md
+│   ├── guide.md
 │   ├── resources.md
 │   ├── project/
 │   │   ├── dataset_preparation.py
@@ -139,6 +198,7 @@ Next roadmap topic: **Day 14 - Foundation Phase Review**
 │   └── screenshots/
 ├── Day-09/
 │   ├── README.md
+│   ├── guide.md
 │   ├── resources.md
 │   ├── project/
 │   │   ├── data_preprocessing_pipeline.py
@@ -146,6 +206,7 @@ Next roadmap topic: **Day 14 - Foundation Phase Review**
 │   └── screenshots/
 ├── Day-10/
 │   ├── README.md
+│   ├── guide.md
 │   ├── resources.md
 │   ├── project/
 │   │   ├── dataset_splitting_tool.py
@@ -153,6 +214,7 @@ Next roadmap topic: **Day 14 - Foundation Phase Review**
 │   └── screenshots/
 ├── Day-11/
 │   ├── README.md
+│   ├── guide.md
 │   ├── resources.md
 │   ├── project/
 │   │   ├── ml_workflow_notes.py
@@ -184,6 +246,7 @@ Next roadmap topic: **Day 14 - Foundation Phase Review**
 Each daily folder includes:
 
 - `README.md` for learning notes, project explanation, and reflection
+- `guide.md` for structured concept notes, examples, common mistakes, and revision questions
 - `resources.md` for helpful learning links
 - `project/` for beginner-friendly code
 - `screenshots/` for terminal output or project images

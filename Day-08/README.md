@@ -6,6 +6,8 @@ Learn how to prepare a dataset for machine learning by creating useful features 
 
 Day 07 reviewed the first week of learning. Day 08 starts Week 2 by moving from data exploration into dataset preparation, which is one of the most important steps before training machine learning models.
 
+For structured learning notes, see the [Day 08 Guide](guide.md).
+
 ## Topics Covered
 
 - Feature engineering basics

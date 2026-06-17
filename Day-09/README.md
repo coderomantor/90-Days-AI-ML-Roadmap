@@ -6,6 +6,8 @@ Learn how to scale numeric features so they are easier for machine learning mode
 
 Day 08 focused on feature engineering and encoding. Day 09 builds on that by preparing numeric columns through normalization and standardization, which are common preprocessing steps before model training.
 
+For structured learning notes, see the [Day 09 Guide](guide.md).
+
 ## Topics Covered
 
 - Feature scaling

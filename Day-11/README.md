@@ -6,6 +6,8 @@ Understand what machine learning is, how a basic ML workflow works, and how feat
 
 Day 10 focused on train/test split. Day 11 introduces the full machine learning workflow at a beginner-friendly level before moving into linear regression.
 
+For structured learning notes, see the [Day 11 Guide](guide.md).
+
 ## Topics Covered
 
 - Introduction to machine learning

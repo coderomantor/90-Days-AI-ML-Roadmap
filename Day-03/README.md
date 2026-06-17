@@ -6,6 +6,8 @@ Learn how to clean and explore tabular data using Pandas before moving deeper in
 
 Day 01 focused on NumPy arrays. Day 02 introduced Pandas DataFrames. Day 03 builds on that by handling common real-world data problems such as missing values, duplicate rows, data types, filtering, sorting, and grouped summaries.
 
+For structured learning notes, see the [Day 03 Guide](guide.md).
+
 ## Learning Objectives
 
 - Detect missing values in a DataFrame

@@ -6,6 +6,8 @@ Learn how to create cleaner statistical visualizations using Seaborn with Pandas
 
 Day 04 introduced Matplotlib for basic charts. Day 05 builds on that by using Seaborn to create more polished visualizations for salary patterns, distributions, relationships, and correlations.
 
+For structured learning notes, see the [Day 05 Guide](guide.md).
+
 ## Topics Covered
 
 - Seaborn basics

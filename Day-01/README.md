@@ -6,6 +6,8 @@ Practice NumPy fundamentals by building a small Student Marks Analyzer.
 
 This is a beginner-friendly project, but it follows professional habits: clear problem definition, simple code, useful comments, and readable output.
 
+For structured learning notes, see the [Day 01 Guide](guide.md).
+
 ## Topics Covered
 
 - NumPy arrays

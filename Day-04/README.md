@@ -6,6 +6,8 @@ Learn how to turn cleaned tabular data into simple visual insights using Matplot
 
 Day 03 focused on cleaning and analyzing employee data with Pandas. Day 04 builds on that by creating charts that make salary patterns and department distribution easier to understand.
 
+For structured learning notes, see the [Day 04 Guide](guide.md).
+
 ## Topics Covered
 
 - Data visualization

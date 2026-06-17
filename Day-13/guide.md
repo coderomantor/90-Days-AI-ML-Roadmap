@@ -1,218 +1,104 @@
 # Day 13 — Linear Regression Implementation Guide
 
-This guide contains my Day 13 implementation notes for House Price Prediction using Linear Regression.
+## 1. What I Revised / Learned Today
 
-## Importing required libraries
+Day 13 focused on implementing linear regression with scikit-learn. I practiced creating a dataset, separating `X` and `y`, splitting data, training a model, making predictions, evaluating results, and interpreting coefficients.
 
-For this project, the main libraries are:
+## 2. Why This Topic Matters
 
-```python
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
+Implementation connects theory to real machine learning workflow. A model is only useful when I can train it, evaluate it, explain its errors, and communicate what the coefficients mean.
 
-from sklearn.linear_model import LinearRegression
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
-```
+## 3. Core Concepts
 
-Pandas is used for the dataset, scikit-learn is used for model training and evaluation, NumPy helps with RMSE, and Matplotlib is used for visualization.
-
-## Creating/loading dataset
-
-For beginner practice, the dataset is created manually.
-
-```python
-df = pd.DataFrame({
-    "Area": [900, 1100, 1300],
-    "Bedrooms": [2, 2, 3],
-    "Bathrooms": [1, 1, 2],
-    "Age": [12, 10, 8],
-    "Price": [150000, 180000, 210000],
-})
-```
-
-In real projects, the dataset may come from a CSV file, database, API, or public dataset.
-
-## Separating X and y
-
-`X` contains the feature columns.
-
-```python
-X = df[["Area", "Bedrooms", "Bathrooms", "Age"]]
-```
+`X` contains feature columns.
 
 `y` contains the target column.
 
+`train_test_split` separates data for training and testing.
+
+`LinearRegression()` creates the model.
+
+`model.fit()` trains the model.
+
+`model.predict()` generates predictions.
+
+MAE, MSE, RMSE, and R2 Score evaluate model performance.
+
+The intercept and coefficients explain the learned relationship.
+
+## 4. Practical Examples
+
 ```python
+from sklearn.linear_model import LinearRegression
+from sklearn.model_selection import train_test_split
+
+X = df[["Area", "Bedrooms", "Bathrooms", "Age"]]
 y = df["Price"]
-```
 
-The model learns patterns from `X` to predict `y`.
-
-## Train/test split
-
-Train/test split separates data for learning and evaluation.
-
-```python
 X_train, X_test, y_train, y_test = train_test_split(
-    X,
-    y,
-    test_size=0.3,
-    random_state=42,
+    X, y, test_size=0.3, random_state=42
 )
-```
 
-Training data teaches the model. Testing data checks how well the model performs on unseen examples.
-
-## Training LinearRegression model
-
-Create the model:
-
-```python
 model = LinearRegression()
-```
-
-Train the model:
-
-```python
 model.fit(X_train, y_train)
-```
-
-During training, the model learns the intercept and coefficients.
-
-## Making predictions
-
-After training, predictions are made on the test data.
-
-```python
 predictions = model.predict(X_test)
 ```
 
-These predictions can be compared with the actual target values.
-
-## Comparing actual vs predicted values
-
-A simple comparison table helps inspect model performance.
-
 ```python
-results = pd.DataFrame({
-    "ActualPrice": y_test.values,
-    "PredictedPrice": predictions,
-})
-```
+from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
+import numpy as np
 
-This makes it easier to see where the model performed well and where it made larger errors.
-
-## Evaluating with MAE, MSE, RMSE, and R2 Score
-
-### MAE
-
-Mean Absolute Error shows the average absolute prediction error.
-
-```python
 mae = mean_absolute_error(y_test, predictions)
-```
-
-### MSE
-
-Mean Squared Error squares the errors before averaging them.
-
-```python
 mse = mean_squared_error(y_test, predictions)
-```
-
-### RMSE
-
-Root Mean Squared Error is the square root of MSE.
-
-```python
 rmse = np.sqrt(mse)
-```
-
-### R2 Score
-
-R2 Score explains how much variance the model explains.
-
-```python
 r2 = r2_score(y_test, predictions)
 ```
 
-Higher R2 is usually better, but it should always be interpreted carefully.
+## 5. Project Connection
 
-## Interpreting coefficients
+House Price Prediction Part 2 trains a linear regression model using Area, Bedrooms, Bathrooms, and Age to predict Price. It prints actual vs predicted values, evaluation metrics, intercept, coefficients, and saves a chart.
 
-The intercept is the model starting point.
+## 6. Common Mistakes
 
-```python
-model.intercept_
-```
+- Forgetting to separate `X` and `y`.
+- Training and testing on the same data.
+- Ignoring model evaluation metrics.
+- Reading coefficients without context.
+- Forgetting that small toy datasets can behave differently from real datasets.
+- Not saving visual outputs for documentation.
 
-Coefficients show how each feature affects the prediction.
+## 7. Interview-Style Questions
 
-```python
-model.coef_
-```
+1. What does `model.fit()` do?
+   It trains the model on training data.
+2. What does `model.predict()` do?
+   It generates predictions for new inputs.
+3. What is MAE?
+   Average absolute prediction error.
+4. What is MSE?
+   Average squared prediction error.
+5. What is RMSE?
+   Square root of MSE.
+6. What is R2 Score?
+   A score showing how much variance the model explains.
+7. What are coefficients?
+   Learned weights for each feature.
+8. Why use train/test split?
+   To evaluate on unseen data.
 
-Example interpretation:
-
-- A positive Area coefficient means larger area increases predicted price.
-- A negative Age coefficient can mean older houses may reduce predicted price.
-
-Coefficients should be interpreted carefully, especially when features are related to each other.
-
-## Visualizing predictions
-
-A simple line chart can compare actual and predicted prices.
-
-```python
-plt.plot(results.index, results["ActualPrice"], label="Actual")
-plt.plot(results.index, results["PredictedPrice"], label="Predicted")
-plt.legend()
-plt.show()
-```
-
-Visualization helps quickly see whether predictions follow the same pattern as actual values.
-
-## Common implementation mistakes
-
-- Forgetting to separate features and target
-- Training and testing on the same data
-- Forgetting train/test split
-- Evaluating only by looking at predictions manually
-- Ignoring MAE, MSE, RMSE, or R2 Score
-- Not checking whether features make sense
-- Interpreting coefficients without context
-- Using testing data during training
-- Forgetting to save charts or outputs for documentation
-
-## Interview-style questions
-
-1. How do you separate features and target?
-2. Why do we use train/test split?
-3. What does `model.fit()` do?
-4. What does `model.predict()` do?
-5. What is MAE?
-6. What is MSE?
-7. What is RMSE?
-8. What is R2 Score?
-9. What is an intercept?
-10. What are coefficients?
-11. How do you compare actual and predicted values?
-12. Why should testing data stay unseen during training?
-
-## Day 13 checklist
+## 8. Day Checklist
 
 - [ ] Import required libraries
 - [ ] Create or load dataset
 - [ ] Separate `X` and `y`
-- [ ] Split data into train and test sets
+- [ ] Split train and test data
 - [ ] Train `LinearRegression`
 - [ ] Make predictions
 - [ ] Compare actual vs predicted values
-- [ ] Calculate MAE
-- [ ] Calculate MSE
-- [ ] Calculate RMSE
-- [ ] Calculate R2 Score
-- [ ] Print intercept and coefficients
+- [ ] Calculate MAE, MSE, RMSE, and R2
+- [ ] Interpret intercept and coefficients
 - [ ] Save a visualization
+
+## 9. Final Takeaway
+
+Linear regression implementation shows the complete beginner ML loop: prepare data, train a model, predict, evaluate, and explain results.
