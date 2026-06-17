@@ -4,9 +4,7 @@
 
 Understand what machine learning is, how a basic ML workflow works, and how features, targets, training, prediction, and evaluation connect together.
 
-Day 09 focused on scaling numeric features. Day 11 introduces the full machine learning workflow at a beginner-friendly level before moving into linear regression.
-
-Note: Day 10 is still pending in this repository and should be completed separately for train/test split practice.
+Day 10 focused on train/test split. Day 11 introduces the full machine learning workflow at a beginner-friendly level before moving into linear regression.
 
 ## Topics Covered
 
@@ -196,4 +194,4 @@ The most important lesson from Day 11 is that clean features, clear targets, and
 
 ## Next Step
 
-Complete Day 10 train/test split practice if it is still pending, then continue to Day 12 and start linear regression theory.
+Continue to Day 12 and start linear regression theory.

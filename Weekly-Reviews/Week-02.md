@@ -22,8 +22,8 @@ This week focuses on preparing data for machine learning and starting the transi
 | Day 09 | Feature scaling, normalization, standardization | Data Preprocessing Pipeline | Completed |
 | Day 10 | Train/test split | Dataset Splitting Tool | Completed |
 | Day 11 | Introduction to Machine Learning | ML Workflow Notes | Completed |
-| Day 12 | Linear Regression Theory | House Price Prediction Part 1 | Not Started |
-| Day 13 | Linear Regression Implementation | House Price Prediction Part 2 | Not Started |
+| Day 12 | Linear Regression Theory | House Price Prediction Part 1 | Completed |
+| Day 13 | Linear Regression Implementation | House Price Prediction Part 2 | Completed |
 | Day 14 | Phase Review | Foundation Phase Reflection | Not Started |
 
 ## What I Learned So Far
@@ -42,6 +42,10 @@ This week focuses on preparing data for machine learning and starting the transi
 - What features and target columns mean in machine learning.
 - The main steps in a beginner machine learning workflow.
 - The difference between regression and classification.
+- What linear regression is used for.
+- How slope and intercept connect to predictions.
+- How to compare actual and predicted values.
+- How MAE and RMSE summarize prediction error.
 
 ## What I Should Practice
 
@@ -54,6 +58,8 @@ This week focuses on preparing data for machine learning and starting the transi
 - Practice different train/test split ratios.
 - Explain data leakage in simple language.
 - Practice explaining the ML workflow in interview-style language.
+- Practice explaining linear regression without code.
+- Review prediction errors before moving into more models.
 
 ## Notes For The Rest Of Week 2
 

@@ -224,7 +224,7 @@ Deliverable:
 
 ---
 
-### Day 12
+### Day 12 ✅
 
 Topics:
 
@@ -234,9 +234,15 @@ Project:
 
 * House Price Prediction (Part 1)
 
+Deliverable:
+
+* Explain linear regression theory
+* Identify features and target
+* Visualize Area vs Price relationship
+
 ---
 
-### Day 13
+### Day 13 ✅
 
 Topics:
 
@@ -245,6 +251,12 @@ Topics:
 Project:
 
 * House Price Prediction (Part 2)
+
+Deliverable:
+
+* Implement simple linear regression
+* Calculate MAE, MSE, RMSE, and R2 Score
+* Save prediction chart
 
 ---
 

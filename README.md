@@ -33,6 +33,8 @@ For the full plan, see [roadmap.md](roadmap.md).
 Selected days may include a concept guide with structured notes, project connections, code examples, and interview-style questions. These guides are written as learning references for my AI/ML journey and for other learners following along.
 
 - [Day 06 — Exploratory Data Analysis (EDA) Guide](Day-06/guide.md)
+- [Day 12 — Linear Regression Theory Guide](Day-12/guide.md)
+- [Day 13 — Linear Regression Implementation Guide](Day-13/guide.md)
 
 ## Progress
 
@@ -49,24 +51,26 @@ Selected days may include a concept guide with structured notes, project connect
 | Day 09 | Feature scaling, normalization, standardization | Data Preprocessing Pipeline | Completed |
 | Day 10 | Train/test split, features, target, data leakage basics | Dataset Splitting Tool | Completed |
 | Day 11 | Introduction to Machine Learning, features, target, workflow basics | ML Workflow Notes | Completed |
+| Day 12 | Linear regression theory, slope, intercept, prediction error | House Price Prediction Part 1 | Completed |
+| Day 13 | Linear regression implementation, predictions, MAE, RMSE | House Price Prediction Part 2 | Completed |
 
 ## Current Focus
 
 I am currently working through **Phase 1: Foundations**.
 
-Completed through: **Day 11 - Introduction to Machine Learning**
+Completed through: **Day 13 - Linear Regression Implementation**
 
-Latest project: **ML Workflow Notes**
+Latest project: **House Price Prediction Part 2**
 
-Day 11 deliverables:
+Day 13 deliverables:
 
-- Explain features and target columns
-- Summarize the beginner machine learning workflow
-- Compare regression, classification, and clustering
-- Connect data preparation to model training
-- Practice interview-style ML basics
+- Implement simple linear regression using NumPy
+- Generate house price predictions
+- Compare actual and predicted prices
+- Calculate MAE and RMSE
+- Save predictions and a regression chart
 
-Next roadmap topic: **Day 12 - Linear Regression Theory**
+Next roadmap topic: **Day 14 - Foundation Phase Review**
 
 ## Repository Structure
 
@@ -154,6 +158,22 @@ Next roadmap topic: **Day 12 - Linear Regression Theory**
 │   │   ├── ml_workflow_notes.py
 │   │   └── requirements.txt
 │   └── screenshots/
+├── Day-12/
+│   ├── README.md
+│   ├── guide.md
+│   ├── resources.md
+│   ├── project/
+│   │   ├── house_price_prediction_part_1.py
+│   │   └── requirements.txt
+│   └── screenshots/
+├── Day-13/
+│   ├── README.md
+│   ├── guide.md
+│   ├── resources.md
+│   ├── project/
+│   │   ├── house_price_prediction_part_2.py
+│   │   └── requirements.txt
+│   └── screenshots/
 └── Weekly-Reviews/
     ├── Week-01.md
     └── Week-02.md
@@ -236,11 +256,23 @@ Reviewed the beginner machine learning workflow, explained features and target c
 
 Project folder: [Day-11/project](Day-11/project)
 
-## Upcoming Projects
-
 ### Day 12: House Price Prediction Part 1
 
-Start linear regression theory before implementing a prediction project.
+Studied linear regression theory, explained features and target columns for house price prediction, and visualized the Area vs Price relationship.
+
+Project folder: [Day-12/project](Day-12/project)
+
+### Day 13: House Price Prediction Part 2
+
+Implemented linear regression using scikit-learn, generated house price predictions, evaluated errors, interpreted coefficients, and saved a prediction chart.
+
+Project folder: [Day-13/project](Day-13/project)
+
+## Upcoming Projects
+
+### Day 14: Foundation Phase Reflection
+
+Review Phase 1 foundations and summarize the first 14 days of learning.
 
 ## Why I Am Sharing This
 
