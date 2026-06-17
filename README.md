@@ -26,11 +26,12 @@ The goal of this repository is to learn in public, build practical AI/ML project
 
 | Phase | Focus Area | Outcome |
 | --- | --- | --- |
-| Phase 1 | Foundations: Python, NumPy, Pandas, data cleaning, visualization, EDA, and first ML concepts | Strong coding and data handling foundation |
-| Phase 2 | Machine Learning Core: regression, classification, metrics, trees, ensembles, and end-to-end workflow | Train, evaluate, and explain practical ML models |
-| Phase 3 | Deep Learning: neural networks, PyTorch, CNNs, and transfer learning | Build and understand basic deep learning projects |
-| Phase 4 | AI Engineering and LLMs: OpenAI APIs, prompts, embeddings, vector databases, RAG, and LangChain | Build practical AI applications with modern tools |
-| Phase 5 | Deployment and Job Readiness: FastAPI, Docker, portfolio, resume, interviews, and final showcase | Package projects professionally and prepare for AI/ML roles |
+| Phase 1 | Foundations: Python, NumPy, Pandas, data cleaning, visualization, EDA, preprocessing, and first ML concepts | Strong coding and data handling foundation |
+| Phase 2 | Job-Ready Data + Core ML: statistics, SQL, real dataset EDA, regression, classification, metrics, pipelines, cross-validation, and tuning | Build the first serious analytics and supervised ML portfolio projects |
+| Phase 3 | Practical ML Workflows + Deployment Basics: imbalanced data, threshold tuning, interpretation, clustering, Streamlit, FastAPI, saved models, and testing | Build stronger ML workflows with app and API demos |
+| Phase 4 | Deep Learning with PyTorch: neural networks, tensors, training loops, MNIST, CNNs, transfer learning, and NLP basics | Build and evaluate beginner deep learning projects |
+| Phase 5 | Modern AI Engineering / LLM / RAG: LLMs, prompts, APIs, embeddings, vector databases, RAG, tool calling, agents, and AI app testing | Build practical AI applications with retrieval and app interfaces |
+| Phase 6 | Final Capstone, Portfolio, Resume, and Interviews: capstone build, Docker basics, deployment/demo preparation, GitHub polish, resume, LinkedIn, and mock interviews | Package projects professionally and prepare for junior AI/ML roles |
 
 For the full plan, see [roadmap.md](roadmap.md).
 
@@ -122,7 +123,7 @@ Day 13 deliverables:
 - Calculate MAE and RMSE
 - Save predictions and a regression chart
 
-Next roadmap topic: **Day 14 - Foundation Phase Review**
+Next roadmap topic: **Day 14 - Foundation Audit and ML Core Preparation**
 
 ## Repository Structure
 
@@ -333,9 +334,9 @@ Project folder: [Day-13/project](Day-13/project)
 
 ## Upcoming Projects
 
-### Day 14: Foundation Phase Reflection
+### Day 14: Foundation Review Checkpoint
 
-Review Phase 1 foundations and summarize the first 14 days of learning.
+Review Phase 1 foundations, audit completed projects, identify weak areas, and prepare for the improved Machine Learning Core phase.
 
 ## Why I Am Sharing This
 
