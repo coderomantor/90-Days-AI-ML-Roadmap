@@ -62,6 +62,7 @@ Each completed day is designed to be useful both as portfolio evidence and as a 
 | [Day 11](Day-11) | Introduction to Machine Learning | [Guide](Day-11/guide.md) | [Project](Day-11/project/ml_workflow_notes.py) |
 | [Day 12](Day-12) | Linear Regression Theory | [Guide](Day-12/guide.md) | [Project](Day-12/project/house_price_prediction_part_1.py) |
 | [Day 13](Day-13) | Linear Regression Implementation | [Guide](Day-13/guide.md) | [Project](Day-13/project/house_price_prediction_part_2.py) |
+| [Day 14](Day-14) | Foundation Audit and ML Core Preparation | [Guide](Day-14/guide.md) | [Project](Day-14/project/foundation_audit_and_ml_core_preparation.md) |
 
 ## For Recruiters
 
@@ -106,24 +107,24 @@ If you are learning along with this roadmap:
 | Day 11 | Introduction to Machine Learning, features, target, workflow basics | ML Workflow Notes | Completed |
 | Day 12 | Linear regression theory, slope, intercept, prediction error | House Price Prediction Part 1 | Completed |
 | Day 13 | Linear regression implementation, predictions, MAE, RMSE | House Price Prediction Part 2 | Completed |
+| Day 14 | Foundation audit, skills checklist, completed project review, ML core preparation | Foundation Audit and ML Core Preparation | Completed |
 
 ## Current Focus
 
 I am currently working through **Phase 1: Foundations**.
 
-Completed through: **Day 13 - Linear Regression Implementation**
+Completed through: **Day 14 - Foundation Audit and ML Core Preparation**
 
-Latest project: **House Price Prediction Part 2**
+Latest project: **Foundation Audit and ML Core Preparation**
 
-Day 13 deliverables:
+Day 14 deliverables:
 
-- Implement linear regression using scikit-learn
-- Generate house price predictions
-- Compare actual and predicted prices
-- Calculate MAE and RMSE
-- Save predictions and a regression chart
+- Review Days 1-13 foundation work
+- Create a skills checklist
+- Identify weak areas before the ML core phase
+- Prepare the next phase for more job-ready projects
 
-Next roadmap topic: **Day 14 - Foundation Audit and ML Core Preparation**
+Next roadmap topic: **Day 15 - Statistics Basics for ML**
 
 ## Repository Structure
 
@@ -237,6 +238,13 @@ Next roadmap topic: **Day 14 - Foundation Audit and ML Core Preparation**
 │   │   ├── house_price_prediction_part_2.py
 │   │   └── requirements.txt
 │   └── screenshots/
+├── Day-14/
+│   ├── README.md
+│   ├── guide.md
+│   ├── resources.md
+│   ├── project/
+│   │   └── foundation_audit_and_ml_core_preparation.md
+│   └── screenshots/
 └── Weekly-Reviews/
     ├── Week-01.md
     └── Week-02.md
@@ -332,11 +340,17 @@ Implemented linear regression using scikit-learn, generated house price predicti
 
 Project folder: [Day-13/project](Day-13/project)
 
+### Day 14: Foundation Audit and ML Core Preparation
+
+Reviewed the first 13 days of foundation work, identified strengths and weak areas, and prepared the roadmap transition into more job-ready ML core projects.
+
+Project folder: [Day-14/project](Day-14/project)
+
 ## Upcoming Projects
 
-### Day 14: Foundation Review Checkpoint
+### Day 15: Statistics Basics for ML
 
-Review Phase 1 foundations, audit completed projects, identify weak areas, and prepare for the improved Machine Learning Core phase.
+Review beginner statistics concepts for machine learning and connect them to EDA, model behavior, and future project evaluation.
 
 ## Why I Am Sharing This
 
