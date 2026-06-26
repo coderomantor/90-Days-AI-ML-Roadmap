@@ -4,6 +4,8 @@
 
 Help me become a job-ready AI and Machine Learning Engineer through daily learning, beginner-friendly projects, clear notes, useful resources, and public documentation.
 
+The repository started as a 90-day AI/ML roadmap and now follows a mentor-reviewed 100-day AI Engineer path from Python foundations to Agentic AI. Keep the repository name unchanged unless I explicitly ask to rename it.
+
 ## My Level
 
 - Intermediate Python
@@ -51,16 +53,19 @@ Weekly-Reviews/
 - NumPy and Pandas
 - Machine Learning foundations
 - AI engineering basics
+- Deep learning, NLP, transformers, RAG, and agentic AI as the roadmap progresses
 - GitHub portfolio quality
 - LinkedIn-ready public learning documentation
 
 ## Rules
 
 - Always read roadmap.md before helping with daily tasks.
+- Follow the current 100-day roadmap in roadmap.md for future day planning.
 - Do not delete existing work without asking.
 - Keep explanations clear and beginner-friendly.
 - Prefer simple working projects over complex abstractions.
 - Make documentation professional, human, and easy to scan.
+- Each new day should include practical evidence, clear evaluation or reflection where relevant, and interview-ready explanations.
 
 ## Commit & Repository Quality Rules
 

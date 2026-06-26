@@ -2,7 +2,7 @@
 
 A public AI/ML learning roadmap, GitHub portfolio, and learner-friendly resource built through daily practice.
 
-I am documenting my 90-day journey through Python, data analysis, machine learning foundations, AI engineering concepts, practical projects, learning guides, screenshots, resources, and weekly reflections. The goal is to show consistent progress while also creating notes that other learners can follow.
+This repository started as a 90-day AI/ML roadmap and has now evolved into a mentor-reviewed 100-day AI Engineer roadmap from Python fundamentals to Agentic AI. The repository name remains unchanged for continuity, but the learning direction now includes classical ML, deployment basics, PyTorch, computer vision, NLP, transformers, LLM applications, fine-tuning, serving, agents, and capstone portfolio work.
 
 ## About Me
 
@@ -14,7 +14,7 @@ I am documenting my 90-day journey through Python, data analysis, machine learni
 
 ## Goal
 
-The goal of this repository is to learn in public, build practical AI/ML projects, and document the journey with clean, useful, recruiter-friendly, and learner-friendly material.
+The goal of this repository is to learn in public, build practical AI/ML and AI engineering projects, and document the journey with clean, useful, recruiter-friendly, and learner-friendly material.
 
 ## Who This Repository Is For
 
@@ -24,16 +24,24 @@ The goal of this repository is to learn in public, build practical AI/ML project
 
 ## Roadmap Overview
 
-| Phase | Focus Area | Outcome |
-| --- | --- | --- |
-| Phase 1 | Foundations: Python, NumPy, Pandas, data cleaning, visualization, EDA, preprocessing, and first ML concepts | Strong coding and data handling foundation |
-| Phase 2 | Job-Ready Data + Core ML: statistics, SQL, real dataset EDA, regression, classification, metrics, pipelines, cross-validation, and tuning | Build the first serious analytics and supervised ML portfolio projects |
-| Phase 3 | Practical ML Workflows + Deployment Basics: imbalanced data, threshold tuning, interpretation, clustering, Streamlit, FastAPI, saved models, and testing | Build stronger ML workflows with app and API demos |
-| Phase 4 | Deep Learning with PyTorch: neural networks, tensors, training loops, MNIST, CNNs, transfer learning, and NLP basics | Build and evaluate beginner deep learning projects |
-| Phase 5 | Modern AI Engineering / LLM / RAG: LLMs, prompts, APIs, embeddings, vector databases, RAG, tool calling, agents, and AI app testing | Build practical AI applications with retrieval and app interfaces |
-| Phase 6 | Final Capstone, Portfolio, Resume, and Interviews: capstone build, Docker basics, deployment/demo preparation, GitHub polish, resume, LinkedIn, and mock interviews | Package projects professionally and prepare for junior AI/ML roles |
+| Phase | Days | Focus Area | Outcome |
+| --- | --- | --- | --- |
+| Phase 1 | Days 1-14 | Foundations | Python, NumPy, Pandas, visualization, EDA, preprocessing, and first ML concepts |
+| Phase 2 | Days 15-24 | Core Machine Learning | Statistics, SQL, real datasets, regression, classification, metrics, cross-validation, and tuning |
+| Phase 3 | Days 25-30 | Unsupervised ML + Deployment | Clustering, Streamlit, FastAPI, saved models, and basic testing |
+| Phase 4 | Days 31-40 | Deep Learning with PyTorch | Tensors, neural networks, training loops, MNIST, CNNs, and evaluation |
+| Phase 5 | Days 41-51 | Computer Vision | Image preprocessing, augmentation, transfer learning, OpenCV, and a CV portfolio project |
+| Phase 6 | Days 52-61 | Natural Language Processing | Text preprocessing, embeddings, RNN/LSTM intuition, and sentiment analysis |
+| Phase 7 | Days 62-74 | Transformers & Generative AI / LLMs | Transformer intuition, Hugging Face, LLM APIs, embeddings, RAG, and evaluation |
+| Phase 8 | Days 75-80 | Fine-tuning, Quantization & Serving | PEFT/LoRA basics, quantization, model serving, and monitoring |
+| Phase 9 | Days 81-91 | Agents & Agentic AI | Tool calling, memory, planning, RAG agents, multi-agent patterns, and evaluation |
+| Phase 10 | Days 92-100 | Capstone, Portfolio & Interviews | Flagship capstone, portfolio polish, resume/LinkedIn, and interview preparation |
 
 For the full plan, see [roadmap.md](roadmap.md).
+
+## 100-Day Outcome
+
+By the end of the roadmap, the strongest work should be packaged into a focused AI Engineer portfolio: classical ML projects, a deployment demo, a deep learning project, a computer vision or NLP project, an LLM/RAG application, an agentic AI project, and one capstone with clear documentation and interview-ready explanations.
 
 ## What Each Day Includes
 
@@ -77,6 +85,8 @@ This repository demonstrates consistent project-based learning and growing AI/ML
 - Train/test split
 - Machine learning fundamentals
 - Linear regression theory and implementation
+- Planned supervised and unsupervised ML portfolio projects
+- Planned PyTorch, computer vision, NLP, transformers, RAG, and agentic AI work
 - Clean documentation and public learning discipline
 
 ## For Learners
@@ -111,7 +121,7 @@ If you are learning along with this roadmap:
 
 ## Current Focus
 
-I am currently working through **Phase 1: Foundations**.
+I am currently transitioning from **Phase 1: Foundations** into **Phase 2: Core Machine Learning**.
 
 Completed through: **Day 14 - Foundation Audit and ML Core Preparation**
 
@@ -124,7 +134,7 @@ Day 14 deliverables:
 - Identify weak areas before the ML core phase
 - Prepare the next phase for more job-ready projects
 
-Next roadmap topic: **Day 15 - Statistics Basics for ML**
+Next roadmap topic: **Day 15 - Statistics for Machine Learning**
 
 ## Repository Structure
 
@@ -348,9 +358,9 @@ Project folder: [Day-14/project](Day-14/project)
 
 ## Upcoming Projects
 
-### Day 15: Statistics Basics for ML
+### Day 15: Statistics for Machine Learning
 
-Review beginner statistics concepts for machine learning and connect them to EDA, model behavior, and future project evaluation.
+Review beginner statistics concepts for machine learning and connect them to EDA, model behavior, metrics, and future project evaluation.
 
 ## Why I Am Sharing This
 
